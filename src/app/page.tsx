@@ -30,7 +30,7 @@ export default function Home() {
           </h1>
 
           <p className="text-xl mb-10 max-w-2xl mx-auto" style={{color: '#475569'}}>
-            4 curated products. Verified AliExpress suppliers. Direct shipping to <strong style={{color: '#0f172a'}}>UK, USA &amp; Canada</strong>.
+            4 curated products. Verified AliExpress suppliers. Ships to <strong style={{color: '#0f172a'}}>USA · UK · Canada · Korea · Spain · France · Germany · Italy · Poland · Pakistan</strong>.
           </p>
 
           {/* CTA Buttons */}
