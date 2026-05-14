@@ -24,7 +24,7 @@ export default function Footer() {
                 { label:'TT', href:SOCIAL_LINKS.tiktok, title:'TikTok' },
                 { label:'RD', href:SOCIAL_LINKS.reddit, title:'Reddit' },
                 { label:'PT', href:SOCIAL_LINKS.pinterest, title:'Pinterest' },
-                { label:'LT', href:SOCIAL_LINKS.linktree, title:'Linktree' },
+                { label:'LT', href:"/shop-now", title:'Linktree' },
               ].map(s => (
                 <a key={s.label} href={s.href} target="_blank" rel="noopener noreferrer" title={s.title}
                   className="w-9 h-9 rounded-lg glass border border-slate-700 hover:border-emerald-500/50 hover:text-emerald-400 flex items-center justify-center text-slate-400 text-xs font-bold transition-all hover-scale">
@@ -53,7 +53,7 @@ export default function Footer() {
                 {p.shortName}
               </a>
             ))}
-            <a href={SOCIAL_LINKS.linktree} target="_blank" rel="noopener noreferrer"
+            <a href={"/shop-now"} target="_blank" rel="noopener noreferrer"
               className="mt-3 flex items-center gap-1.5 font-outfit text-xs text-emerald-400 hover:text-emerald-300 transition-colors">
               <ExternalLink className="w-3 h-3" /> All on Linktree
             </a>
