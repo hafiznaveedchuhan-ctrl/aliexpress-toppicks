@@ -148,7 +148,7 @@ function ProductShopCard({ product: p, index, faqs }: {
               className="inline-flex items-center gap-3 px-8 py-4 rounded-2xl text-slate-800 font-outfit font-bold text-base transition-all hover:scale-105"
               style={{background: `linear-gradient(135deg, ${accent}, ${accent}cc)`, boxShadow: `0 8px 32px ${accent}30`}}>
               <ShoppingCart className="w-5 h-5" />
-              Buy on Alibaba
+              Buy on AliExpress
               <ExternalLink className="w-4 h-4" />
             </a>
           </div>
