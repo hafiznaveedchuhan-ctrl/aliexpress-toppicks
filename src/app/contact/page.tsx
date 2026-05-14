@@ -60,9 +60,9 @@ export default function ContactPage() {
             {/* Linktree */}
             <div className="glass rounded-3xl p-6 border border-emerald-500/20 hover-lift hover-glow-green transition-all">
               <p className="font-outfit text-sm text-slate-400 mb-4">Browse all 3 products on one page:</p>
-              <a href={SOCIAL_LINKS.linktree} target="_blank" rel="noopener noreferrer"
+              <a href="/shop-now" target="_blank" rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 py-3 btn-primary rounded-xl text-white font-outfit font-semibold text-sm w-full">
-                Visit Linktree — All Products <ExternalLink className="w-4 h-4" />
+                Shop All Products <ExternalLink className="w-4 h-4" />
               </a>
             </div>
           </div>
