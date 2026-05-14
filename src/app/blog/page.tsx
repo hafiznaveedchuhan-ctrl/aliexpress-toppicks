@@ -28,11 +28,11 @@ export default function BlogPage() {
         <div className="absolute top-20 left-1/2 -translate-x-1/2 w-[400px] h-[300px] bg-blue-500/6 rounded-full blur-3xl" />
         <div className="relative max-w-4xl mx-auto px-8">
           <span className="badge-pill glass border border-blue-500/20 text-blue-400 mb-4"><BookOpen className="w-3.5 h-3.5"/>Our Blog</span>
-          <h1 className="font-playfair text-5xl font-bold text-white mb-4">
+          <h1 className="font-playfair text-5xl font-bold text-slate-800 mb-4">
             Expert <span className="shimmer-green">Guides</span> & Reviews
           </h1>
           <div className="divider mx-auto mb-4" />
-          <p className="font-outfit text-slate-400 text-lg max-w-xl mx-auto">In-depth reviews & buying guides for UK, USA & Canada health shoppers</p>
+          <p className="font-outfit text-slate-500 text-lg max-w-xl mx-auto">In-depth reviews & buying guides for UK, USA & Canada health shoppers</p>
         </div>
       </section>
 
@@ -45,14 +45,14 @@ export default function BlogPage() {
               <div>
                 <div className="flex flex-wrap gap-2 mb-3">
                   <span className={`badge-pill border text-xs ${tagColors[articles[0].tag]}`}>{articles[0].tag}</span>
-                  <span className="badge-pill glass border border-slate-700 text-slate-400 text-xs">{articles[0].cat}</span>
+                  <span className="badge-pill glass border border-slate-700 text-slate-500 text-xs">{articles[0].cat}</span>
                 </div>
-                <h2 className="font-playfair text-2xl md:text-3xl font-bold text-white mb-3">{articles[0].t}</h2>
-                <p className="font-outfit text-slate-300 mb-5 leading-relaxed max-w-xl">{articles[0].desc}</p>
+                <h2 className="font-playfair text-2xl md:text-3xl font-bold text-slate-800 mb-3">{articles[0].t}</h2>
+                <p className="font-outfit text-slate-600 mb-5 leading-relaxed max-w-xl">{articles[0].desc}</p>
                 <div className="flex items-center gap-4 flex-wrap">
-                  <span className="flex items-center gap-1.5 text-slate-400 font-outfit text-sm"><Clock className="w-4 h-4"/>{articles[0].min}</span>
+                  <span className="flex items-center gap-1.5 text-slate-500 font-outfit text-sm"><Clock className="w-4 h-4"/>{articles[0].min}</span>
                   <a href={articles[0].link} target="_blank" rel="noopener noreferrer"
-                    className="flex items-center gap-2 px-6 py-2.5 btn-primary rounded-xl text-white font-outfit font-semibold text-sm">
+                    className="flex items-center gap-2 px-6 py-2.5 btn-primary rounded-xl text-slate-800 font-outfit font-semibold text-sm">
                     Read Article <ExternalLink className="w-4 h-4"/>
                   </a>
                 </div>
@@ -72,8 +72,8 @@ export default function BlogPage() {
                   <span className={`badge-pill border text-xs ${tagColors[a.tag]}`}>{a.tag}</span>
                   <span className="font-outfit text-xs text-slate-500">{a.cat}</span>
                 </div>
-                <h3 className="font-playfair text-lg font-bold text-white mb-2 group-hover:text-emerald-400 transition-colors line-clamp-2">{a.t}</h3>
-                <p className="font-outfit text-sm text-slate-400 mb-4 line-clamp-2 leading-relaxed">{a.desc}</p>
+                <h3 className="font-playfair text-lg font-bold text-slate-800 mb-2 group-hover:text-emerald-400 transition-colors line-clamp-2">{a.t}</h3>
+                <p className="font-outfit text-sm text-slate-500 mb-4 line-clamp-2 leading-relaxed">{a.desc}</p>
                 <div className="flex items-center justify-between">
                   <span className="flex items-center gap-1 text-slate-500 font-outfit text-xs"><Clock className="w-3 h-3"/>{a.min}</span>
                   <a href={a.link} target="_blank" rel="noopener noreferrer"
@@ -87,7 +87,7 @@ export default function BlogPage() {
         </div>
         <div className="text-center mt-10">
           <a href="https://deals-hub-2026.blogspot.com" target="_blank" rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-8 py-4 btn-primary rounded-2xl text-white font-outfit font-bold">
+            className="inline-flex items-center gap-2 px-8 py-4 btn-primary rounded-2xl text-slate-800 font-outfit font-bold">
             Visit Full Blog <ExternalLink className="w-5 h-5"/>
           </a>
         </div>
