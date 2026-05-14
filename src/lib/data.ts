@@ -24,6 +24,8 @@ export const products = [
     reviews: 2847,
     soldCount: "5000+ sold",
     affiliateLink: "https://s.click.aliexpress.com/e/_c2uKjCjp",
+    affiliateId: "aliexpress",
+    productId: "led-face-mask",
     features: [
       "7 color LED light therapy modes",
       "Red 630nm — anti-aging & collagen boost",
@@ -68,6 +70,8 @@ export const products = [
     reviews: 3241,
     soldCount: "1000+ sold",
     affiliateLink: "https://s.click.aliexpress.com/e/_c4brKrK7",
+    affiliateId: "aliexpress",
+    productId: "posture-corrector",
     features: [
       "Smart vibration alert when slouching",
       "Ultra-lightweight — only 85g",
@@ -113,6 +117,8 @@ export const products = [
     reviews: 1893,
     soldCount: "300+ sold",
     affiliateLink: "https://s.click.aliexpress.com/e/_c31ybjMr",
+    affiliateId: "aliexpress",
+    productId: "massage-gun",
     features: [
       "30 adjustable speed levels",
       "6 professional massage heads",
@@ -157,6 +163,8 @@ export const products = [
     reviews: 847,
     soldCount: "200+ sold",
     affiliateLink: "https://s.click.aliexpress.com/e/_c3QUrIwB",
+    affiliateId: "aliexpress",
+    productId: "fathers-day-gift",
     features: [
       "Premium quartz watch with leather strap",
       "Genuine leather wallet — slim design",
