@@ -45,9 +45,9 @@ export default function ProductCard({ product, featured = false }: { product: Pr
 
       <div className="p-6">
         <span className="font-outfit text-xs text-slate-500 uppercase tracking-widest">{product.category}</span>
-        <h3 className="font-playfair text-xl font-bold text-white mb-1 mt-1">{product.name}</h3>
+        <h3 className="font-playfair text-xl font-bold text-slate-800 mb-1 mt-1">{product.name}</h3>
         <p className="font-outfit text-sm text-emerald-400 font-medium mb-3">{product.tagline}</p>
-        <p className="font-outfit text-sm text-slate-400 leading-relaxed mb-4 line-clamp-2">{product.description}</p>
+        <p className="font-outfit text-sm text-slate-500 leading-relaxed mb-4 line-clamp-2">{product.description}</p>
 
         <div className="flex items-center gap-2 mb-4">
           <div className="flex">
@@ -55,7 +55,7 @@ export default function ProductCard({ product, featured = false }: { product: Pr
               <Star key={i} className={`w-4 h-4 ${i < Math.floor(product.rating) ? 'text-amber-400 fill-amber-400' : 'text-slate-600'}`} />
             ))}
           </div>
-          <span className="font-outfit text-sm text-white font-semibold">{product.rating}</span>
+          <span className="font-outfit text-sm text-slate-800 font-semibold">{product.rating}</span>
           <span className="font-outfit text-xs text-slate-500">({product.reviews.toLocaleString()})</span>
         </div>
 
@@ -63,7 +63,7 @@ export default function ProductCard({ product, featured = false }: { product: Pr
           {product.features.slice(0, 3).map((feature) => (
             <div key={feature} className="flex items-center gap-2">
               <Check className="w-3.5 h-3.5 text-emerald-400 flex-shrink-0" />
-              <span className="font-outfit text-xs text-slate-300">{feature}</span>
+              <span className="font-outfit text-xs text-slate-600">{feature}</span>
             </div>
           ))}
         </div>
@@ -80,12 +80,12 @@ export default function ProductCard({ product, featured = false }: { product: Pr
 
         <div className="flex gap-3">
           <a href={product.affiliateLink} target="_blank" rel="noopener noreferrer"
-            className="flex-1 flex items-center justify-center gap-2 py-3 buy-btn rounded-xl text-white font-outfit font-semibold text-sm">
+            className="flex-1 flex items-center justify-center gap-2 py-3 buy-btn rounded-xl text-slate-800 font-outfit font-semibold text-sm">
             <ShoppingCart className="w-4 h-4" />
             Buy on Alibaba
           </a>
           <Link href={`/products#product-${product.id}`}
-            className="px-4 py-3 rounded-xl border border-slate-700 hover:border-emerald-500/50 text-slate-400 hover:text-white transition-all flex items-center">
+            className="px-4 py-3 rounded-xl border border-slate-700 hover:border-emerald-500/50 text-slate-500 hover:text-slate-800 transition-all flex items-center">
             <ExternalLink className="w-4 h-4" />
           </Link>
         </div>
