@@ -69,7 +69,7 @@ export const products = [
     rating: 4.8,
     reviews: 3241,
     soldCount: "1000+ sold",
-    affiliateLink: "https://s.click.aliexpress.com/e/_c4brKrK7",
+    affiliateLink: "https://s.click.aliexpress.com/e/_c3MmvTa7",
     affiliateId: "aliexpress",
     productId: "posture-corrector",
     features: [
