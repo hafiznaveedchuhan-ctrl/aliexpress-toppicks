@@ -56,7 +56,7 @@ export default function Home() {
           {[
             { icon: <Users className="w-6 h-6" />, value: "10K+", label: "Happy Customers", color: "#7c3aed" },
             { icon: <Shield className="w-6 h-6" />, value: "100%", label: "Verified Suppliers", color: "#059669" },
-            { icon: <Truck className="w-6 h-6" />, value: "Fast", label: "UK/USA/CA Shipping", color: "#2563eb" },
+            { icon: <Truck className="w-6 h-6" />, value: "Fast", label: "Ships to 10 Countries", color: "#2563eb" },
             { icon: <TrendingUp className="w-6 h-6" />, value: "4", label: "Premium Products", color: "#f59e0b" },
           ].map((s, i) => (
             <div key={i} className="stat-card">
@@ -120,7 +120,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-full flex items-center justify-center gap-2 py-3 rounded-xl font-semibold text-sm text-white transition-all duration-300 hover:opacity-90 hover:-translate-y-0.5"
-                    style={{background: `linear-gradient(135deg, ${product.accent}, ${product.accentLight === '#fff1f2' ? '#f97316' : product.accent}cc)`}}
+                    style={{background: `linear-gradient(135deg, ${product.accent}, #7c3aed)`, color: 'white'}}
                   >
                     <ShoppingCart className="w-4 h-4" />
                     Buy on AliExpress
@@ -137,7 +137,7 @@ export default function Home() {
         <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center text-white">
           {[
             { icon: <Shield className="w-8 h-8" />, title: "Buyer Protection", desc: "AliExpress secure checkout" },
-            { icon: <Truck className="w-8 h-8" />, title: "Global Shipping", desc: "UK · USA · Canada · 218 countries" },
+            { icon: <Truck className="w-8 h-8" />, title: "Global Shipping", desc: "USA · UK · Canada · Korea · Spain · France · Germany · Italy · Poland · Pakistan" },
             { icon: <Zap className="w-8 h-8" />, title: "Best Prices", desc: "Direct from manufacturers" },
           ].map((f, i) => (
             <div key={i} className="flex flex-col items-center gap-3">
@@ -184,7 +184,7 @@ export default function Home() {
       </section>
 
       {/* CTA */}
-      <section className="py-20 px-6 text-center" style={{background: 'linear-gradient(135deg, #0f172a, #1e1b4b)'}}>
+      <section className="py-20 px-6 text-center" style={{background: 'linear-gradient(135deg, #7c3aed, #f43f5e)'}}>
         <div className="max-w-3xl mx-auto">
           <h2 className="text-4xl font-bold text-white mb-4">Ready to Shop?</h2>
           <p className="text-lg mb-8" style={{color: '#94a3b8'}}>4 premium products. Direct from verified suppliers. Ships worldwide.</p>
