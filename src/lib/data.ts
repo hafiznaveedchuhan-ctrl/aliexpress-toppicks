@@ -1,4 +1,5 @@
 export const SOCIAL_LINKS = {
+  linktree: "https://shop-now",  // redirects to shop
   tiktok: "https://www.tiktok.com/@hafiznaveedchuhan",
   reddit: "https://www.reddit.com/user/Particular-Ship6288/",
   pinterest: "https://www.pinterest.com/hafiznaveedc",
