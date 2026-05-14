@@ -48,7 +48,7 @@ export default function ShopNowPage() {
             <Zap className="w-4 h-4" />
             <span>Direct Alibaba Links · Affiliate Tracked · Best Prices</span>
           </div>
-          <h1 className="font-playfair text-5xl md:text-6xl font-bold text-white mb-4">
+          <h1 className="font-playfair text-5xl md:text-6xl font-bold text-slate-800 mb-4">
             Shop <span style={{background: 'linear-gradient(135deg, #10b981, #34d399)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>Now</span>
           </h1>
           <p className="font-outfit text-lg mb-3" style={{color: '#94a3b8'}}>
@@ -122,7 +122,7 @@ function ProductShopCard({ product: p, index, faqs }: {
                 {p.category}
               </span>
             </div>
-            <h2 className="font-playfair text-2xl font-bold text-white mb-2">{p.name}</h2>
+            <h2 className="font-playfair text-2xl font-bold text-slate-800 mb-2">{p.name}</h2>
             <p className="font-outfit text-sm mb-4" style={{color: '#94a3b8'}}>{p.tagline}</p>
 
             <div className="flex items-center gap-1 mb-4">
@@ -135,7 +135,7 @@ function ProductShopCard({ product: p, index, faqs }: {
             <div className="flex items-end gap-4 mb-6">
               <div>
                 <p className="font-outfit text-xs mb-1" style={{color: '#64748b'}}>Price</p>
-                <p className="font-playfair text-3xl font-bold text-white">{p.price}</p>
+                <p className="font-playfair text-3xl font-bold text-slate-800">{p.price}</p>
                 <p className="font-outfit text-xs mt-1" style={{color: '#64748b'}}>{p.priceNote}</p>
               </div>
               <div className="ml-4">
@@ -145,7 +145,7 @@ function ProductShopCard({ product: p, index, faqs }: {
             </div>
 
             <a href={p.affiliateLink} target="_blank" rel="noopener noreferrer"
-              className="inline-flex items-center gap-3 px-8 py-4 rounded-2xl text-white font-outfit font-bold text-base transition-all hover:scale-105"
+              className="inline-flex items-center gap-3 px-8 py-4 rounded-2xl text-slate-800 font-outfit font-bold text-base transition-all hover:scale-105"
               style={{background: `linear-gradient(135deg, ${accent}, ${accent}cc)`, boxShadow: `0 8px 32px ${accent}30`}}>
               <ShoppingCart className="w-5 h-5" />
               Buy on Alibaba
@@ -165,7 +165,7 @@ function ProductShopCard({ product: p, index, faqs }: {
 
         {/* FAQs */}
         <div>
-          <h3 className="font-playfair text-lg font-bold text-white mb-4">
+          <h3 className="font-playfair text-lg font-bold text-slate-800 mb-4">
             Frequently Asked Questions
           </h3>
           <div className="space-y-3">
@@ -174,7 +174,7 @@ function ProductShopCard({ product: p, index, faqs }: {
                 style={{border: `1px solid ${accent}20`, background: 'rgba(255,255,255,0.02)'}}>
                 <button
                   onClick={() => setOpenFaq(openFaq === i ? null : i)}
-                  className="w-full flex items-center justify-between p-4 text-left font-outfit font-semibold text-white text-sm hover:text-emerald-400 transition-colors">
+                  className="w-full flex items-center justify-between p-4 text-left font-outfit font-semibold text-slate-800 text-sm hover:text-emerald-400 transition-colors">
                   <span>{faq.q}</span>
                   {openFaq === i
                     ? <ChevronUp className="w-4 h-4 flex-shrink-0 ml-2" style={{color: accent}} />
