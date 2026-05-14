@@ -169,7 +169,7 @@ function ProductDetail({ product: p, reverse }: { product: typeof products[0]; r
         <div className="glass rounded-2xl p-5 border border-slate-800 mb-4">
           <div className="flex items-center justify-between mb-4">
             <div>
-              <p className="font-outfit text-xs text-slate-500">Alibaba Price</p>
+              <p className="font-outfit text-xs text-slate-500">Price</p>
               <p className="font-playfair text-4xl font-bold shimmer-gold">{p.price}</p>
               <p className="font-outfit text-xs text-slate-500 mt-1">{p.priceNote}</p>
             </div>
@@ -181,7 +181,7 @@ function ProductDetail({ product: p, reverse }: { product: typeof products[0]; r
           </div>
           <a href={p.affiliateLink} target="_blank" rel="noopener noreferrer"
             className={`${btnC} rounded-xl py-4 text-white font-outfit font-bold flex items-center justify-center gap-2 w-full text-base`}>
-            <ShoppingCart className="w-5 h-5" /> Buy on Alibaba — {p.price}
+            <ShoppingCart className="w-5 h-5" /> Buy on AliExpress — {p.price}
             <ExternalLink className="w-4 h-4" />
           </a>
           <p className="text-center font-outfit text-xs text-slate-600 mt-3">
