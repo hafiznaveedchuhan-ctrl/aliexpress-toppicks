@@ -12,11 +12,11 @@ export default function Footer() {
           <div className="md:col-span-1">
             <Link href="/" className="flex items-center gap-2 mb-4">
               <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-emerald-500 to-emerald-700 flex items-center justify-center">
-                <Sparkles className="w-4 h-4 text-white" />
+                <Sparkles className="w-4 h-4 text-slate-800" />
               </div>
-              <span className="font-playfair font-bold text-white">FatimaZehraTopPicks</span>
+              <span className="font-playfair font-bold text-slate-800">FatimaZehraTopPicks</span>
             </Link>
-            <p className="font-outfit text-sm text-slate-400 leading-relaxed mb-5">
+            <p className="font-outfit text-sm text-slate-500 leading-relaxed mb-5">
               Premium health & wellness products for UK, USA & Canada — sourced directly from verified Alibaba suppliers.
             </p>
             <div className="flex gap-2 flex-wrap">
@@ -27,7 +27,7 @@ export default function Footer() {
                 { label:'LT', href:"/shop-now", title:'Linktree' },
               ].map(s => (
                 <a key={s.label} href={s.href} target="_blank" rel="noopener noreferrer" title={s.title}
-                  className="w-9 h-9 rounded-lg glass border border-slate-700 hover:border-emerald-500/50 hover:text-emerald-400 flex items-center justify-center text-slate-400 text-xs font-bold transition-all hover-scale">
+                  className="w-9 h-9 rounded-lg glass border border-slate-700 hover:border-emerald-500/50 hover:text-emerald-400 flex items-center justify-center text-slate-500 text-xs font-bold transition-all hover-scale">
                   {s.label}
                 </a>
               ))}
@@ -35,20 +35,20 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="font-space font-semibold text-white mb-4 text-sm uppercase tracking-wider">Navigation</h3>
+            <h3 className="font-space font-semibold text-slate-800 mb-4 text-sm uppercase tracking-wider">Navigation</h3>
             {['/', '/products', '/reviews', '/blog', '/about', '/contact'].map((href, i) => (
               <Link key={href} href={href}
-                className="block font-outfit text-sm text-slate-400 hover:text-emerald-400 transition-colors py-1 hover:translate-x-1 transform duration-200">
+                className="block font-outfit text-sm text-slate-500 hover:text-emerald-400 transition-colors py-1 hover:translate-x-1 transform duration-200">
                 {['Home','Products','Reviews','Blog','About','Contact'][i]}
               </Link>
             ))}
           </div>
 
           <div>
-            <h3 className="font-space font-semibold text-white mb-4 text-sm uppercase tracking-wider">Our Products</h3>
+            <h3 className="font-space font-semibold text-slate-800 mb-4 text-sm uppercase tracking-wider">Our Products</h3>
             {products.map(p => (
               <a key={p.id} href={p.affiliateLink} target="_blank" rel="noopener noreferrer"
-                className="flex items-center gap-1.5 font-outfit text-sm text-slate-400 hover:text-emerald-400 transition-colors py-1 group hover:translate-x-1 transform duration-200">
+                className="flex items-center gap-1.5 font-outfit text-sm text-slate-500 hover:text-emerald-400 transition-colors py-1 group hover:translate-x-1 transform duration-200">
                 <ExternalLink className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity flex-shrink-0" />
                 {p.shortName}
               </a>
@@ -60,32 +60,32 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="font-space font-semibold text-white mb-4 text-sm uppercase tracking-wider">Follow Us</h3>
+            <h3 className="font-space font-semibold text-slate-800 mb-4 text-sm uppercase tracking-wider">Follow Us</h3>
             <a href={SOCIAL_LINKS.tiktok} target="_blank" rel="noopener noreferrer"
-              className="flex items-center gap-2 text-slate-400 hover:text-emerald-400 transition-colors font-outfit text-sm py-1 hover:translate-x-1 transform duration-200">
+              className="flex items-center gap-2 text-slate-500 hover:text-emerald-400 transition-colors font-outfit text-sm py-1 hover:translate-x-1 transform duration-200">
               🎵 TikTok — @hafiznaveedchuhan
             </a>
             <a href={SOCIAL_LINKS.reddit} target="_blank" rel="noopener noreferrer"
-              className="flex items-center gap-2 text-slate-400 hover:text-emerald-400 transition-colors font-outfit text-sm py-1 hover:translate-x-1 transform duration-200">
+              className="flex items-center gap-2 text-slate-500 hover:text-emerald-400 transition-colors font-outfit text-sm py-1 hover:translate-x-1 transform duration-200">
               🟠 Reddit — TheDealsDetective
             </a>
             <a href={SOCIAL_LINKS.pinterest} target="_blank" rel="noopener noreferrer"
-              className="flex items-center gap-2 text-slate-400 hover:text-emerald-400 transition-colors font-outfit text-sm py-1 hover:translate-x-1 transform duration-200">
+              className="flex items-center gap-2 text-slate-500 hover:text-emerald-400 transition-colors font-outfit text-sm py-1 hover:translate-x-1 transform duration-200">
               📌 Pinterest — TheDealsDetective
             </a>
             <a href={`mailto:${SOCIAL_LINKS.email}`}
-              className="flex items-center gap-2 text-slate-400 hover:text-emerald-400 transition-colors font-outfit text-sm py-1 hover:translate-x-1 transform duration-200">
+              className="flex items-center gap-2 text-slate-500 hover:text-emerald-400 transition-colors font-outfit text-sm py-1 hover:translate-x-1 transform duration-200">
               <Mail className="w-3.5 h-3.5 flex-shrink-0" /> {SOCIAL_LINKS.email}
             </a>
             <a href={SOCIAL_LINKS.whatsapp} target="_blank" rel="noopener noreferrer"
-              className="flex items-center gap-2 text-slate-400 hover:text-emerald-400 transition-colors font-outfit text-sm py-1 hover:translate-x-1 transform duration-200">
+              className="flex items-center gap-2 text-slate-500 hover:text-emerald-400 transition-colors font-outfit text-sm py-1 hover:translate-x-1 transform duration-200">
               <MessageCircle className="w-3.5 h-3.5 flex-shrink-0" /> WhatsApp Chat
             </a>
             <div className="mt-4 pt-4 border-t border-slate-800">
               <p className="font-outfit text-xs text-slate-500 mb-2">Serving</p>
               <div className="flex gap-2 flex-wrap">
                 {['🇬🇧 UK','🇺🇸 USA','🇨🇦 Canada'].map(c => (
-                  <span key={c} className="px-2 py-1 rounded-lg glass border border-slate-700 text-xs font-outfit text-slate-300">{c}</span>
+                  <span key={c} className="px-2 py-1 rounded-lg glass border border-slate-700 text-xs font-outfit text-slate-600">{c}</span>
                 ))}
               </div>
             </div>
