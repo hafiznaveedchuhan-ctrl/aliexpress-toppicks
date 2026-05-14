@@ -9,11 +9,11 @@ export default function ContactPage() {
         <div className="absolute top-20 left-1/2 -translate-x-1/2 w-[500px] h-[300px] bg-rose-500/5 rounded-full blur-3xl" />
         <div className="relative max-w-4xl mx-auto px-8">
           <span className="badge-pill glass border border-rose-500/20 text-rose-400 mb-4">📬 Get In Touch</span>
-          <h1 className="font-playfair text-5xl font-bold text-white mb-4">
+          <h1 className="font-playfair text-5xl font-bold text-slate-800 mb-4">
             Contact <span className="shimmer-gold">Us</span>
           </h1>
           <div className="divider divider-rose mx-auto mb-4" />
-          <p className="font-outfit text-slate-400 text-lg">Questions? We respond within 24 hours via WhatsApp or email.</p>
+          <p className="font-outfit text-slate-500 text-lg">Questions? We respond within 24 hours via WhatsApp or email.</p>
         </div>
       </section>
 
@@ -23,7 +23,7 @@ export default function ContactPage() {
           {/* Contact info */}
           <div className="space-y-5">
             <div className="glass rounded-3xl p-8 border border-slate-800 hover-lift hover-glow-green transition-all">
-              <h2 className="font-playfair text-2xl font-bold text-white mb-6 flex items-center gap-2">
+              <h2 className="font-playfair text-2xl font-bold text-slate-800 mb-6 flex items-center gap-2">
                 <Heart className="w-5 h-5 text-rose-400" /> Reach Us Directly
               </h2>
               {[
@@ -40,9 +40,9 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <p className="font-outfit text-xs text-slate-500">{label}</p>
-                    <p className={`font-outfit text-sm font-semibold text-white group-hover:${color} transition-colors`}>{val}</p>
+                    <p className={`font-outfit text-sm font-semibold text-slate-800 group-hover:${color} transition-colors`}>{val}</p>
                   </div>
-                  <ExternalLink className="w-4 h-4 text-slate-600 group-hover:text-white ml-auto transition-colors" />
+                  <ExternalLink className="w-4 h-4 text-slate-600 group-hover:text-slate-800 ml-auto transition-colors" />
                 </a>
               ))}
 
@@ -52,16 +52,16 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <p className="font-outfit text-xs text-slate-500">Serving Countries</p>
-                  <p className="font-outfit text-sm font-semibold text-white">🇬🇧 UK | 🇺🇸 USA | 🇨🇦 Canada</p>
+                  <p className="font-outfit text-sm font-semibold text-slate-800">🇬🇧 UK | 🇺🇸 USA | 🇨🇦 Canada</p>
                 </div>
               </div>
             </div>
 
             {/* Linktree */}
             <div className="glass rounded-3xl p-6 border border-emerald-500/20 hover-lift hover-glow-green transition-all">
-              <p className="font-outfit text-sm text-slate-400 mb-4">Browse all 3 products on one page:</p>
+              <p className="font-outfit text-sm text-slate-500 mb-4">Browse all 3 products on one page:</p>
               <a href="/shop-now" target="_blank" rel="noopener noreferrer"
-                className="flex items-center justify-center gap-2 py-3 btn-primary rounded-xl text-white font-outfit font-semibold text-sm w-full">
+                className="flex items-center justify-center gap-2 py-3 btn-primary rounded-xl text-slate-800 font-outfit font-semibold text-sm w-full">
                 Shop All Products <ExternalLink className="w-4 h-4" />
               </a>
             </div>
@@ -70,8 +70,8 @@ export default function ContactPage() {
           {/* Product Links */}
           <div className="space-y-5">
             <div className="glass rounded-3xl p-8 border border-slate-800">
-              <h2 className="font-playfair text-2xl font-bold text-white mb-2">Shop Direct</h2>
-              <p className="font-outfit text-sm text-slate-400 mb-6">Click any product below — goes straight to Alibaba with our affiliate link:</p>
+              <h2 className="font-playfair text-2xl font-bold text-slate-800 mb-2">Shop Direct</h2>
+              <p className="font-outfit text-sm text-slate-500 mb-6">Click any product below — goes straight to Alibaba with our affiliate link:</p>
 
               {products.map(p => {
                 const btnC = p.badgeColor === 'rose' ? 'btn-rose' : p.badgeColor === 'violet' ? 'btn-violet' : 'btn-amber'
@@ -81,13 +81,13 @@ export default function ContactPage() {
                     <div className="flex items-start gap-4 mb-4">
                       <span className="text-3xl">{p.emoji}</span>
                       <div className="flex-1">
-                        <h3 className="font-playfair text-lg font-bold text-white">{p.name}</h3>
-                        <p className="font-outfit text-sm text-slate-400">{p.tagline}</p>
+                        <h3 className="font-playfair text-lg font-bold text-slate-800">{p.name}</h3>
+                        <p className="font-outfit text-sm text-slate-500">{p.tagline}</p>
                         <p className="font-playfair text-xl font-bold shimmer-gold mt-1">{p.price}</p>
                       </div>
                     </div>
                     <a href={p.affiliateLink} target="_blank" rel="noopener noreferrer"
-                      className={`${btnC} rounded-xl py-3 text-white font-outfit font-bold flex items-center justify-center gap-2 text-sm w-full`}>
+                      className={`${btnC} rounded-xl py-3 text-slate-800 font-outfit font-bold flex items-center justify-center gap-2 text-sm w-full`}>
                       Buy {p.shortName} on Alibaba <ExternalLink className="w-3.5 h-3.5" />
                     </a>
                     <p className="font-mono text-xs text-slate-600 mt-2 text-center truncate">{p.affiliateLink}</p>
@@ -100,7 +100,7 @@ export default function ContactPage() {
 
         {/* FAQ */}
         <div className="mt-20">
-          <h2 className="font-playfair text-3xl font-bold text-white text-center mb-10">
+          <h2 className="font-playfair text-3xl font-bold text-slate-800 text-center mb-10">
             Common <span className="shimmer-green">Questions</span>
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-4xl mx-auto">
@@ -111,8 +111,8 @@ export default function ContactPage() {
               { q:"Do you earn commission from these links?", a:"Yes — we earn a small commission at no extra cost to you. Your support helps us create more helpful content!" },
             ].map(({ q, a }) => (
               <div key={q} className="glass rounded-2xl p-6 border border-slate-800 hover-lift hover-glow-green transition-all group">
-                <h3 className="font-space text-base font-semibold text-white mb-2 group-hover:text-emerald-400 transition-colors">{q}</h3>
-                <p className="font-outfit text-sm text-slate-400 leading-relaxed">{a}</p>
+                <h3 className="font-space text-base font-semibold text-slate-800 mb-2 group-hover:text-emerald-400 transition-colors">{q}</h3>
+                <p className="font-outfit text-sm text-slate-500 leading-relaxed">{a}</p>
               </div>
             ))}
           </div>
