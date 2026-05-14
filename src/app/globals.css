@@ -182,3 +182,29 @@ h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; }
 .hover-glow-green:hover { box-shadow: 0 8px 30px rgba(5, 150, 105, 0.3); }
 .hover-glow-purple:hover { box-shadow: 0 8px 30px rgba(124, 58, 237, 0.3); }
 .btn-primary { background: linear-gradient(135deg, #7c3aed, #f43f5e); color: white; padding: 12px 24px; border-radius: 12px; font-weight: 600; transition: all 0.3s; }
+
+/* Fix white text on light backgrounds */
+.text-dark { color: #0f172a !important; }
+.text-dark-secondary { color: #475569 !important; }
+.text-dark-muted { color: #64748b !important; }
+
+/* Override slate colors for light bg */
+.text-slate-100, .text-slate-200, .text-slate-300 { color: #334155 !important; }
+.text-slate-400 { color: #64748b !important; }
+.text-white-on-light { color: #0f172a !important; }
+
+/* Card styles for light bg */
+.card-light {
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+}
+
+/* Section backgrounds - always light */
+.section-light { background: #f8faff; }
+.section-white { background: #ffffff; }
+
+/* Fix font classes */
+.font-outfit { font-family: 'Outfit', sans-serif; }
+.font-playfair { font-family: 'Playfair Display', serif; }
