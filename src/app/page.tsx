@@ -133,21 +133,30 @@ export default function Home() {
       </section>
 
       {/* Features Banner */}
-      <section className="py-12 px-6" style={{background: 'linear-gradient(135deg, #7c3aed, #f43f5e)'}}>
-        <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center text-white">
-          {[
-            { icon: <Shield className="w-8 h-8" />, title: "Buyer Protection", desc: "AliExpress secure checkout" },
-            { icon: <Truck className="w-8 h-8" />, title: "Global Shipping", desc: "USA · UK · Canada · Korea · Spain · France · Germany · Italy · Poland · Pakistan" },
-            { icon: <Zap className="w-8 h-8" />, title: "Best Prices", desc: "Direct from manufacturers" },
-          ].map((f, i) => (
-            <div key={i} className="flex flex-col items-center gap-3">
-              <div className="w-16 h-16 rounded-2xl flex items-center justify-center" style={{background: 'rgba(255,255,255,0.2)'}}>
-                {f.icon}
+      <section className="py-14 px-6" style={{background: 'linear-gradient(135deg, #7c3aed, #f43f5e)'}}>
+        <div className="max-w-5xl mx-auto text-center text-white">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-10">
+            {[
+              { icon: <Shield className="w-8 h-8" />, title: "Buyer Protection", desc: "AliExpress secure checkout & money back guarantee" },
+              { icon: <Truck className="w-8 h-8" />, title: "Ships to 10 Countries", desc: "Fast delivery worldwide" },
+              { icon: <Zap className="w-8 h-8" />, title: "Best Prices", desc: "Direct from manufacturers — no middleman" },
+            ].map((f, i) => (
+              <div key={i} className="flex flex-col items-center gap-3">
+                <div className="w-16 h-16 rounded-2xl flex items-center justify-center" style={{background: 'rgba(255,255,255,0.2)'}}>
+                  {f.icon}
+                </div>
+                <h3 className="text-lg font-bold">{f.title}</h3>
+                <p className="text-sm opacity-80">{f.desc}</p>
               </div>
-              <h3 className="text-lg font-bold">{f.title}</h3>
-              <p className="text-sm opacity-80">{f.desc}</p>
-            </div>
-          ))}
+            ))}
+          </div>
+          <div className="flex flex-wrap justify-center gap-3">
+            {["🇺🇸 USA","🇬🇧 UK","🇨🇦 Canada","🇰🇷 Korea","🇪🇸 Spain","🇫🇷 France","🇩🇪 Germany","🇮🇹 Italy","🇵🇱 Poland","🇵🇰 Pakistan"].map((c,i)=>(
+              <span key={i} className="px-4 py-2 rounded-full text-sm font-semibold" style={{background:'rgba(255,255,255,0.2)', border:'1px solid rgba(255,255,255,0.4)'}}>
+                {c}
+              </span>
+            ))}
+          </div>
         </div>
       </section>
 
