@@ -2,7 +2,7 @@ export const SOCIAL_LINKS = {
   linktree: "https://shop-now",  // redirects to shop
   tiktok: "https://www.tiktok.com/@hafiznaveedchuhan",
   reddit: "https://www.reddit.com/user/Particular-Ship6288/",
-  pinterest: "https://www.pinterest.com/hafiznaveedc",
+  pinterest: "https://www.pinterest.com/hafiznaveedu/",
   whatsapp: "https://wa.me/923002385209?text=Hi!%20I%20found%20your%20website%20and%20I'm%20interested%20in%20your%20products!",
   email: "hafiznaveedchuhan@gmail.com",
   blog: "https://deals-hub-2026.blogspot.com",
