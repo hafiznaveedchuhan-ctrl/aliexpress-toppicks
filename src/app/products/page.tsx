@@ -56,7 +56,7 @@ export default function ProductsPage() {
               )
             })}
           </div>
-          <a href={SOCIAL_LINKS.linktree} target="_blank" rel="noopener noreferrer"
+          <a href={"/shop-now"} target="_blank" rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-3 btn-primary rounded-xl text-white font-outfit font-semibold">
             All Links on Linktree <ExternalLink className="w-4 h-4" />
           </a>
