@@ -191,9 +191,7 @@ export const products = [
     accent: "#10b981",
     accentLight: "#ecfdf5",
     description: "The ultimate Father's Day gift set featuring a premium quartz watch, genuine leather wallet, stainless steel keychain, and signature cologne — all in a luxury gift box."
-  }
-]
-
+  },
   {
     id: 5,
     name: "Electric Neck & Shoulder Massager",
