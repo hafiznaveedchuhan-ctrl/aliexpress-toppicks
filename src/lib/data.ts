@@ -194,6 +194,140 @@ export const products = [
   }
 ]
 
+  {
+    id: 5,
+    name: "Electric Neck & Shoulder Massager",
+    shortName: "Neck Massager",
+    tagline: "Neck Pain Gone in 15 Minutes — Heat + 4D Vibration",
+    price: "$20 – $45",
+    priceNote: "1 piece | Free shipping",
+    badge: "🔥 Hot Seller",
+    badgeColor: "orange",
+    emoji: "💆",
+    category: "Health & Wellness",
+    rating: 4.6,
+    reviews: 10000,
+    soldCount: "10,000+ sold",
+    affiliateLink: "https://s.click.aliexpress.com/e/_c4eSrdKL",
+    affiliateId: "aliexpress",
+    productId: "neck-massager",
+    features: [
+      "4D Shiatsu deep tissue kneading",
+      "Heating vibration therapy",
+      "Cervical traction support",
+      "3 adjustable massage modes",
+      "Portable & rechargeable",
+      "Auto shut-off safety feature",
+      "Fits all neck sizes",
+      "Results in just 15 minutes daily"
+    ],
+    benefits: [
+      "Relieves desk job neck pain instantly",
+      "Replaces expensive physio sessions",
+      "Perfect WFH essential",
+      "Ideal Father's Day gift"
+    ],
+    targetAudience: "Office workers | WFH professionals | Athletes | UK/USA/Canada",
+    images: [
+      "/images/NECK-1.jpg",
+      "/images/NECK-2.jpg",
+      "/images/NECK-3.jpg",
+    ],
+    fallback: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&q=80",
+    accent: "#e8530a",
+    accentLight: "#fff7ed",
+    description: "Professional-grade electric neck massager with heat & 4D vibration therapy. Trusted by 10,000+ customers for instant relief from neck pain, shoulder tension & desk job stiffness. Ships FREE to USA, UK & Canada."
+  },
+  {
+    id: 6,
+    name: "Ice Roller & Gua Sha Face Set",
+    shortName: "Ice Roller & Gua Sha",
+    tagline: "Glow Skin in 7 Days — K-Beauty Secret Revealed",
+    price: "$5 – $15",
+    priceNote: "1-3 piece set | Free shipping",
+    badge: "✨ Trending Now",
+    badgeColor: "cyan",
+    emoji: "🧊",
+    category: "Skincare & Beauty",
+    rating: 4.6,
+    reviews: 3000,
+    soldCount: "3,000+ sold",
+    affiliateLink: "https://s.click.aliexpress.com/e/_c3PaxjYR",
+    affiliateId: "aliexpress",
+    productId: "ice-roller-gua-sha",
+    features: [
+      "Stainless steel ice roller",
+      "Natural gua sha scraping tool",
+      "De-puffs & tightens skin",
+      "Reduces fine lines & wrinkles",
+      "Minimizes pores naturally",
+      "Boosts blood circulation",
+      "Dermatologist recommended",
+      "Works with serums & moisturizers"
+    ],
+    benefits: [
+      "K-Beauty glass skin at home",
+      "Replaces $200+ facial treatments",
+      "Anti-aging + acne reduction",
+      "Perfect skincare gift for her"
+    ],
+    targetAudience: "Women 18–45 | Skincare lovers | K-beauty fans | UK/USA/Canada/Korea",
+    images: [
+      "/images/ICE-1.jpg",
+      "/images/ICE-2.jpg",
+      "/images/ICE-3.jpg",
+    ],
+    fallback: "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600&q=80",
+    accent: "#0ea5e9",
+    accentLight: "#f0f9ff",
+    description: "The K-Beauty secret millions swear by! Ice Roller + Gua Sha Set de-puffs, tightens & brightens your skin naturally. 3,000+ sold worldwide. Dermatologist recommended. Ships FREE to USA, UK, Canada & Korea."
+  },
+  {
+    id: 7,
+    name: "LIGE Smart Fitness Band & Watch",
+    shortName: "Smart Fitness Band",
+    tagline: "Best Graduation Gift 2026 — Track Everything",
+    price: "$10 – $30",
+    priceNote: "1 piece | Free shipping",
+    badge: "🎓 Grad Gift Pick",
+    badgeColor: "purple",
+    emoji: "⌚",
+    category: "Tech & Fitness",
+    rating: 4.1,
+    reviews: 118,
+    soldCount: "1,000+ sold",
+    affiliateLink: "https://s.click.aliexpress.com/e/_c34f0nNp",
+    affiliateId: "aliexpress",
+    productId: "smart-fitness-band",
+    features: [
+      "Heart rate monitoring 24/7",
+      "Blood oxygen SpO2 tracking",
+      "ECG health monitoring",
+      "188 sport activity modes",
+      "20-30 day battery life",
+      "IP68 waterproof design",
+      "Call & message notifications",
+      "Android & iOS compatible"
+    ],
+    benefits: [
+      "Perfect graduation gift 2026",
+      "Replaces $200+ fitness trackers",
+      "Stylish & affordable",
+      "Ships fast to USA, UK & Canada"
+    ],
+    targetAudience: "Graduates | Fitness lovers | Tech enthusiasts | UK/USA/Canada/Germany",
+    images: [
+      "/images/BAND-1.jpg",
+      "/images/BAND-2.jpg",
+      "/images/BAND-3.jpg",
+    ],
+    fallback: "https://images.unsplash.com/photo-1523475496153-3b36fe998904?w=600&q=80",
+    accent: "#8b5cf6",
+    accentLight: "#f5f3ff",
+    description: "The ultimate graduation gift for 2026! LIGE Smart Fitness Band with heart rate, blood oxygen, ECG & 188 sport modes. 20-30 day battery life. Waterproof. Compatible with Android & iOS. Ships FREE to USA, UK & Canada."
+  },
+]
+
 export const testimonials = [
   { name: "Sarah M.", location: "London, UK", product: "LED Face Mask", rating: 5,
     text: "After 7 days my skin looks 10 years younger. The red light therapy is incredible. Best £50 I've ever spent!", avatar: "S", verified: true },
