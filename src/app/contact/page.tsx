@@ -52,7 +52,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <p className="font-outfit text-xs text-slate-500">Serving Countries</p>
-                  <p className="font-outfit text-sm font-semibold text-slate-800">🇬🇧 UK | 🇺🇸 USA | 🇨🇦 Canada</p>
+                  <p className="font-outfit text-sm font-semibold text-slate-800">🇬🇧 UK | 🇺🇸 USA | 🇨🇦 Canada | 🇩🇪 Germany | 🇫🇷 France | 🇮🇹 Italy | 🇪🇸 Spain | 🇧🇷 Brazil | 🌍 All Over the World</p>
                 </div>
               </div>
             </div>

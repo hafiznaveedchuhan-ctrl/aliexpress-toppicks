@@ -30,7 +30,7 @@ export default function Home() {
           </h1>
 
           <p className="text-xl mb-10 max-w-2xl mx-auto" style={{color: '#475569'}}>
-            4 curated products. Verified AliExpress suppliers. Ships to <strong style={{color: '#0f172a'}}>USA · UK · Canada · Korea · Spain · France · Germany · Italy · Poland · Pakistan</strong>.
+            7 curated products. Verified AliExpress suppliers. Ships to <strong style={{color: '#0f172a'}}>USA · UK · Canada</strong> & <strong style={{color: '#0f172a'}}>🌍 All Over the World</strong>.
           </p>
 
           {/* CTA Buttons */}
@@ -56,7 +56,7 @@ export default function Home() {
           {[
             { icon: <Users className="w-6 h-6" />, value: "10K+", label: "Happy Customers", color: "#7c3aed" },
             { icon: <Shield className="w-6 h-6" />, value: "100%", label: "Verified Suppliers", color: "#059669" },
-            { icon: <Truck className="w-6 h-6" />, value: "Fast", label: "Ships to 10 Countries", color: "#2563eb" },
+            { icon: <Truck className="w-6 h-6" />, value: "Fast", label: "Ships Worldwide", color: "#2563eb" },
             { icon: <TrendingUp className="w-6 h-6" />, value: "4", label: "Premium Products", color: "#f59e0b" },
           ].map((s, i) => (
             <div key={i} className="stat-card">
@@ -138,7 +138,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-10">
             {[
               { icon: <Shield className="w-8 h-8" />, title: "Buyer Protection", desc: "AliExpress secure checkout & money back guarantee" },
-              { icon: <Truck className="w-8 h-8" />, title: "Ships to 10 Countries", desc: "Fast delivery worldwide" },
+              { icon: <Truck className="w-8 h-8" />, title: "Ships Worldwide", desc: "Fast delivery worldwide" },
               { icon: <Zap className="w-8 h-8" />, title: "Best Prices", desc: "Direct from manufacturers — no middleman" },
             ].map((f, i) => (
               <div key={i} className="flex flex-col items-center gap-3">
@@ -151,7 +151,7 @@ export default function Home() {
             ))}
           </div>
           <div className="flex flex-wrap justify-center gap-3">
-            {["🇺🇸 USA","🇬🇧 UK","🇨🇦 Canada","🇰🇷 Korea","🇪🇸 Spain","🇫🇷 France","🇩🇪 Germany","🇮🇹 Italy","🇵🇱 Poland","🇵🇰 Pakistan"].map((c,i)=>(
+            {["🇺🇸 USA","🇬🇧 UK","🇨🇦 Canada","🇰🇷 Korea","🇪🇸 Spain","🇫🇷 France","🇩🇪 Germany","🇮🇹 Italy","🇵🇱 Poland","🇵🇰 Pakistan","🇧🇷 Brazil","🌍 All Over the World"].map((c,i)=>(
               <span key={i} className="px-4 py-2 rounded-full text-sm font-semibold" style={{background:'rgba(255,255,255,0.2)', border:'1px solid rgba(255,255,255,0.4)'}}>
                 {c}
               </span>
