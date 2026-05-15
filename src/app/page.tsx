@@ -19,7 +19,7 @@ export default function Home() {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-semibold mb-6 shadow-sm" style={{background: 'linear-gradient(135deg, #7c3aed22, #f43f5e22)', color: '#7c3aed', border: '1px solid #7c3aed33'}}>
             <Sparkles className="w-4 h-4" />
-            Verified AliExpress Products · UK, USA &amp; Canada
+            Verified AliExpress Products · Worldwide Delivery
           </div>
 
           {/* Main title */}
@@ -30,7 +30,7 @@ export default function Home() {
           </h1>
 
           <p className="text-xl mb-10 max-w-2xl mx-auto" style={{color: '#475569'}}>
-            7 curated products. Verified AliExpress suppliers. Ships to <strong style={{color: '#0f172a'}}>USA · UK · Canada</strong> & <strong style={{color: '#0f172a'}}>🌍 All Over the World</strong>.
+            12 curated products. Verified AliExpress suppliers. Ships to <strong style={{color: '#0f172a'}}>USA · UK · Canada</strong> & <strong style={{color: '#0f172a'}}>🌍 All Over the World</strong>.
           </p>
 
           {/* CTA Buttons */}
@@ -75,8 +75,8 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <span className="section-label">🔥 Trending Now</span>
-            <h2 className="text-4xl font-bold mt-4 mb-4" style={{color: '#0f172a'}}>Our Top 4 Picks</h2>
-            <p style={{color: '#64748b'}}>Handpicked for UK, USA &amp; Canada customers</p>
+            <h2 className="text-4xl font-bold mt-4 mb-4" style={{color: '#0f172a'}}>Our Top 12 Picks</h2>
+            <p style={{color: '#64748b'}}>Handpicked for USA · UK · Canada · Germany · France · Italy · Spain · Korea · Poland & 🌍 All Over the World</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
