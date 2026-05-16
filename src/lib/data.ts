@@ -549,8 +549,6 @@ export const products = [
     accentLight: "#fffbeb",
     description: "Make a bold statement with this 18K Gold Chunky Chain Jewelry Set! Tarnish-resistant, waterproof & hypoallergenic. Pinterest Predicts 2026 Glamoratti fashion trend confirmed. 20,000+ sold worldwide. Perfect for graduation, birthdays & summer events. Ships FREE to USA, UK, France, Italy & All Over the World!"
   },
-]
-
   {
     id: 13,
     name: "4th of July RGBIC Outdoor String Lights",
@@ -641,6 +639,7 @@ export const products = [
     accentLight: "#EFF6FF",
     description: "The MUST-HAVE decoration for 4th of July 2026 — America turns 250! This 132-piece Red White Blue Balloon Garland Kit creates a stunning patriotic backdrop for your BBQ party. Star foil + confetti balloons included. Amazon bestseller 3 years running! Ships FREE to USA & All Over the World!"
   },
+]
 
 export const testimonials = [
   { name: "Sarah M.", location: "London, UK", product: "LED Face Mask", rating: 5,
