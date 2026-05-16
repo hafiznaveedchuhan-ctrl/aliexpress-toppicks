@@ -30,7 +30,7 @@ export default function Home() {
           </h1>
 
           <p className="text-xl mb-10 max-w-2xl mx-auto" style={{color: '#475569'}}>
-            12 curated products. Verified AliExpress suppliers. Ships to <strong style={{color: '#0f172a'}}>USA · UK · Canada</strong> & <strong style={{color: '#0f172a'}}>🌍 All Over the World</strong>.
+            14 curated products. Verified AliExpress suppliers. Ships to <strong style={{color: '#0f172a'}}>USA · UK · Canada</strong> & <strong style={{color: '#0f172a'}}>🌍 All Over the World</strong>.
           </p>
 
           {/* CTA Buttons */}
@@ -75,7 +75,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <span className="section-label">🔥 Trending Now</span>
-            <h2 className="text-4xl font-bold mt-4 mb-4" style={{color: '#0f172a'}}>Our Top 12 Picks</h2>
+            <h2 className="text-4xl font-bold mt-4 mb-4" style={{color: '#0f172a'}}>Our Top 14 Picks</h2>
             <p style={{color: '#64748b'}}>Handpicked for USA · UK · Canada · Germany · France · Italy · Spain · Korea · Poland & 🌍 All Over the World</p>
           </div>
 
